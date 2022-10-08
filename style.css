@@ -1,11 +1,22 @@
 * {
+ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
   }
   
+  .backgropund{
+    background-image: url(4.jpg);
+background-size: cover;
+width: 100%;
+position: absolute;
+   height: 600px;
+
+    
+  }
   main {
+    background-color: white;
     width: 80%;
     margin: 15px auto 0;
   }
@@ -91,7 +102,7 @@
    border-radius: 10px;
     font-weight: bolder;
     height: 5vh;
-   
+    
      
      display: flex;
      margin: 0% 10%;
